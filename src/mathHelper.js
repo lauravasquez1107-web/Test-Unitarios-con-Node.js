@@ -7,4 +7,12 @@ function divide(a, b) {
   return a / b;
 }
 
-module.exports = { add, divide };
+function multiplication(a, b) {
+  return a * b;
+}
+
+function subtraction(a, b) {
+  return a - b;
+}
+
+module.exports = { add, divide, multiplication, subtraction };
